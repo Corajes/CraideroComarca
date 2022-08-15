@@ -1,0 +1,14 @@
+//se introducen variales generales//
+@import "./misc/variables.scss";
+//se introduce estilos generales//
+@import "./misc/normalize";
+//ponemos las paginas navegadores//
+@import "./general/body.scss";
+@import "./general/header.scss";
+//importamos el cuerpo de las paginas//
+@import "./general/HyP.scss";
+//intentamos dimensiones d eimagenes en productos//
+@import "./general/producos-descripcion.scss";
+@import "./general/contacto.scss";
+@import "./general/ventanillas.scss";
+@import "./general/footer.scss";

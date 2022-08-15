@@ -1,0 +1,82 @@
+//ventanillas de productos//
+.promociones{
+    text-align: center;
+}
+
+.producto-promocion{
+    border: 5px $borde-puntitos red;
+    border-radius: 6px;
+
+    min-width: 200px;
+    height: 230px;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    padding: 10px;
+
+    margin: 10px;
+
+}
+
+.producto-promocion img{
+    width: 80%;
+    height: 60%;
+
+    border-radius: 8px;
+
+}
+
+.ProductoStock{
+    text-align: center;
+}
+
+iframe{
+    width: 80%;
+    margin: 10vw;
+}
+//se adapto el tamaño para que no se rompiera la pagina al disminuirla//
+@media (min-width: 280px){
+
+    .index h2{
+        font-size:$h2;
+    }
+    .index h3{
+        font-size: $h3;
+    }
+    .index p{
+        font-size: 0.8rem;
+    
+    }
+    .producto-promocion{
+    
+        min-width: 260px;
+        height: 300px;
+    
+    }
+
+    .div-promociones{
+        padding: 15px;
+        display :flex;
+        overflow-x:scroll;
+        
+    }
+
+.productos h2{
+    font-size: $h2;
+}
+.productos h3{
+    font-size: $h3;
+}
+.productos p{
+    font-size: 0.8rem;
+
+}}
+//agregamos ruta a botones index y productos//
+.boton-descripcion {
+    color: black;
+    text-decoration: none;
+}

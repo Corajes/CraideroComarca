@@ -1,0 +1,88 @@
+
+@media (min-width: 500px){
+
+    .body{
+        width: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 15vh 1fr 1fr 20vh;
+        background-color: $color-fondo;
+    
+        grid-template-areas: 
+        "header header header"
+        "index index index"
+        "index index index"
+        "footer footer footer";
+    }}
+    .imagen2 {
+        margin: auto;
+        width: 80%;
+        max-width: 400px;
+        padding: 0em 3em;
+        border-radius: 20px;
+    }
+    .header {
+        grid-area: header;
+    }
+    .index{
+        grid-area: index;
+    }
+    .footer{
+        grid-area: footer;
+    }
+    header{
+    
+        flex-direction:row;
+        justify-content: space-around;
+    }
+    
+    nav{
+        width: 45%;
+    }
+    
+    .index h2{
+        font-size:$h2;
+    }
+    
+    .index h3{
+        font-size: $h3;
+    }
+    
+    .index p{
+        font-size: 1rem;
+    }
+    
+    .div-promociones{
+        justify-content: space-around;
+    }
+    
+    .div-promociones{
+    
+        overflow-x:hidden;
+        
+        }
+    
+    .productos{
+        text-align: center;
+    }
+    
+    .productos h2{
+        font-size: $h2;
+    }
+    .productos h3{
+        font-size: $h3;
+    }
+    .productos p{
+        font-size: 1rem;
+    }
+    .mapa2{
+        margin-left: 450px;
+        
+    }
+    .mapa3{
+        margin: auto;
+        width: 90%;
+        max-width: 1000px;
+        padding: 3em 3em;
+        border-radius: 20px;
+    }

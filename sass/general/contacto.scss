@@ -1,0 +1,13 @@
+$fondo-formulario: #f29832;
+$ancho: 90%;
+
+.formulario{
+background-color:$fondo-formulario;
+margin: auto;
+width: $ancho;
+max-width: 400px;
+border-style:$borde-puntitos;
+padding: 3em 3em;
+border-radius: 20px;
+box-shadow: 0 5px 10px -5px rgb(0,0,0 / 30%);
+}

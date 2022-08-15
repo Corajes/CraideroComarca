@@ -1,0 +1,65 @@
+//variable container//
+$altura: "300px";
+$anchura:"680px";
+@import "./mixins";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+//se aplico mixin para container index y criadero//
+
+header nav ul li{
+    list-style: none;
+}
+
+header nav ul li a{
+    font-family: cursive;
+    text-decoration: none;
+    color: $letras-header;
+}
+
+h1{
+    color: $color-letras-todo;
+    text-align:center;
+}
+
+header{
+    background-color: burlywood;
+    color: $color-letras-todo;
+    padding: 12px;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.seccion-1{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 40vh;
+}
+button:hover{
+    transform: scale(2);
+}
+.articulo-1{
+    text-align: center;
+    justify-content: center;
+    overflow: hidden;
+    box-shadow: 5px 8px 12px black;
+    border-radius: 20px;
+
+}
+.container{
+    @include t-cont-img($altura,$anchura);
+    background-color:rgb(218, 160, 99);
+    box-shadow: 5px 8px 12px black;
+    border-radius: 20px;
+    border-style: $borde-puntitos;
+}

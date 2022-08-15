@@ -1,0 +1,30 @@
+header nav ul li{
+    list-style: none;
+}
+
+header nav ul li a{
+    font-family: cursive;
+    text-decoration: none;
+    color: $letras-header;
+}
+
+header{
+    background-color: $color-fondo-header;
+    color:$color-letras-todo;
+    padding: 12px;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+    border-right: 2px solid $color-letras-todo;
+    border-left: 2px solid $color-letras-todo;
+
+}
+button:hover{
+    transform: scale(2);
+}
