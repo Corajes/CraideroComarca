@@ -1,5 +1,5 @@
 
-@media (min-width: 300px){
+@media (min-width: 450px){
 
     .body{
         width: 100%;
@@ -14,7 +14,7 @@
         "index index index"
         "index index index"
         "footer footer footer";
-    }
+    }}
     .imagen2 {
         margin: auto;
         width: 80%;
@@ -34,7 +34,7 @@
     header{
     
         flex-direction:row;
-        justify-content: space-around;
+        justify-content:center;
     }
     
     nav{
@@ -54,7 +54,7 @@
     }
     
     .div-promociones{
-        justify-content:flex-start;
+        justify-content:space-between;
         overflow-x:scroll;
     }
        
@@ -82,4 +82,3 @@
         padding: 3em 3em;
         border-radius: 20px;
     }
-}

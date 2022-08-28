@@ -56,56 +56,72 @@ button:hover {
   height: 250px;
   width: 100%; }
 
-@media (min-width: 300px) {
+@media (min-width: 450px) {
   .body {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 15vh 1fr 1fr 20vh;
     background-color: beige;
-    grid-template-areas: "header header header" "index index index" "index index index" "footer footer footer"; }
-  .imagen2 {
-    margin: auto;
-    width: 80%;
-    max-width: 400px;
-    padding: 0em 3em;
-    border-radius: 20px; }
-  .header {
-    grid-area: header; }
-  .index {
-    grid-area: index; }
-  .footer {
-    grid-area: footer; }
-  header {
-    flex-direction: row;
-    justify-content: space-around; }
-  nav {
-    width: 45%; }
-  .index h2 {
-    font-size: 3rem; }
-  .index h3 {
-    font-size: 2rem; }
-  .index p {
-    font-size: 1rem; }
-  .div-promociones {
-    justify-content: flex-start;
-    overflow-x: scroll; }
-  .productos {
-    text-align: center; }
-  .productos h2 {
-    font-size: 3rem; }
-  .productos h3 {
-    font-size: 2rem; }
-  .productos p {
-    font-size: 1rem; }
-  .mapa2 {
-    margin-left: 450px; }
-  .mapa3 {
-    margin: auto;
-    width: 90%;
-    max-width: 1000px;
-    padding: 3em 3em;
-    border-radius: 20px; } }
+    grid-template-areas: "header header header" "index index index" "index index index" "footer footer footer"; } }
+
+.imagen2 {
+  margin: auto;
+  width: 80%;
+  max-width: 400px;
+  padding: 0em 3em;
+  border-radius: 20px; }
+
+.header {
+  grid-area: header; }
+
+.index {
+  grid-area: index; }
+
+.footer {
+  grid-area: footer; }
+
+header {
+  flex-direction: row;
+  justify-content: center; }
+
+nav {
+  width: 45%; }
+
+.index h2 {
+  font-size: 3rem; }
+
+.index h3 {
+  font-size: 2rem; }
+
+.index p {
+  font-size: 1rem; }
+
+.div-promociones {
+  justify-content: space-between;
+  overflow-x: scroll; }
+
+.productos {
+  text-align: center; }
+
+.productos h2 {
+  font-size: 3rem; }
+
+.productos h3 {
+  font-size: 2rem; }
+
+.productos p {
+  font-size: 1rem; }
+
+.mapa2 {
+  margin-left: 450px; }
+
+.mapa3 {
+  margin: auto;
+  width: 90%;
+  max-width: 1000px;
+  padding: 3em 3em;
+  border-radius: 20px; }
 
 header nav ul li {
   list-style: none; }
