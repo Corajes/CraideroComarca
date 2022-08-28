@@ -47,79 +47,65 @@ button:hover {
 .container {
   height: "300px";
   width: "680px";
-  background-color: #daa063;
+  background-color: burlywood;
   box-shadow: 5px 8px 12px black;
   border-radius: 20px;
   border-style: dotted; }
 
-@media (min-width: 500px) {
+.imagen_bosque {
+  height: 250px;
+  width: 100%; }
+
+@media (min-width: 300px) {
   .body {
-    width: auto;
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 15vh 1fr 1fr 20vh;
     background-color: beige;
-    grid-template-areas: "header header header" "index index index" "index index index" "footer footer footer"; } }
-
-.imagen2 {
-  margin: auto;
-  width: 80%;
-  max-width: 400px;
-  padding: 0em 3em;
-  border-radius: 20px; }
-
-.header {
-  grid-area: header; }
-
-.index {
-  grid-area: index; }
-
-.footer {
-  grid-area: footer; }
-
-header {
-  flex-direction: row;
-  justify-content: space-around; }
-
-nav {
-  width: 45%; }
-
-.index h2 {
-  font-size: 3rem; }
-
-.index h3 {
-  font-size: 2rem; }
-
-.index p {
-  font-size: 1rem; }
-
-.div-promociones {
-  justify-content: space-around; }
-
-.div-promociones {
-  overflow-x: hidden; }
-
-.productos {
-  text-align: center; }
-
-.productos h2 {
-  font-size: 3rem; }
-
-.productos h3 {
-  font-size: 2rem; }
-
-.productos p {
-  font-size: 1rem; }
-
-.mapa2 {
-  margin-left: 450px; }
-
-.mapa3 {
-  margin: auto;
-  width: 90%;
-  max-width: 1000px;
-  padding: 3em 3em;
-  border-radius: 20px; }
+    grid-template-areas: "header header header" "index index index" "index index index" "footer footer footer"; }
+  .imagen2 {
+    margin: auto;
+    width: 80%;
+    max-width: 400px;
+    padding: 0em 3em;
+    border-radius: 20px; }
+  .header {
+    grid-area: header; }
+  .index {
+    grid-area: index; }
+  .footer {
+    grid-area: footer; }
+  header {
+    flex-direction: row;
+    justify-content: space-around; }
+  nav {
+    width: 45%; }
+  .index h2 {
+    font-size: 3rem; }
+  .index h3 {
+    font-size: 2rem; }
+  .index p {
+    font-size: 1rem; }
+  .div-promociones {
+    justify-content: flex-start;
+    overflow-x: scroll; }
+  .productos {
+    text-align: center; }
+  .productos h2 {
+    font-size: 3rem; }
+  .productos h3 {
+    font-size: 2rem; }
+  .productos p {
+    font-size: 1rem; }
+  .mapa2 {
+    margin-left: 450px; }
+  .mapa3 {
+    margin: auto;
+    width: 90%;
+    max-width: 1000px;
+    padding: 3em 3em;
+    border-radius: 20px; } }
 
 header nav ul li {
   list-style: none; }
@@ -149,7 +135,7 @@ button:hover {
 h4 {
   text-align: center;
   font-size: 1rem;
-  color: darkred;
+  color: brown;
   background-color: rgba(0, 0, 0, 0.877); }
 
 .index h2 {
@@ -169,13 +155,14 @@ h4 {
   text-align: center; }
 
 .index h3 {
-  color: darkred;
+  color: brown;
   font-size: 2rem;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
 
 .imagenes {
+  margin-left: 25%;
   display: flex;
-  width: 100%;
+  max-width: 30%;
   height: 100%;
   min-height: 200px;
   min-width: 200px;
@@ -192,7 +179,7 @@ h4 {
   border-inline-end-width: 3px; }
 
 .secciones {
-  display: flex;
+  display: grid;
   align-items: center;
   padding: 40px; }
 

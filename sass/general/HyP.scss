@@ -1,24 +1,24 @@
-//se dejan titulos o descripciones principales(aun se estan corrigiendo errores)//
+//se dejan titulos o descripciones principales//
 h4{
     text-align: center;
     font-size: $h4;
-    color: darkred;
+    color: $color-letras-todo;
     background-color: rgba(0, 0, 0, 0.877);
 }
 .index h2{
-    color: brown;
+    color: $color-letras-todo;
     font-family:Arial, Helvetica, sans-serif;
     font-size: $h2;
     
 }
 .index p{
-    color: brown;
+    color:$color-letras-todo;
     font-family: cursive;
     font-size: 1rem;
 }
 
 .index h2{
-    color: brown;
+    color: $color-letras-todo;
     font-family:Arial, Helvetica, sans-serif;
     font-size: $h2;
     text-align: center;
@@ -26,7 +26,7 @@ h4{
 
 
 .index h3{
-    color: darkred;
+    color:$color-letras-todo;
     font-size: $h3;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }

@@ -2,3 +2,21 @@
     height: $altura;
     width: $anchura;
 }
+@mixin cuadrado ($fondo) {
+    background-color: $fondo;
+    box-shadow: 5px 8px 12px black;
+    border-radius: 20px;
+    border-style: $borde-puntitos;
+    
+}
+@mixin imagen-descripcion-productos {
+    margin-left: 25%;
+    display: flex;
+    max-width: 30%;
+    height: 100%;
+    min-height: 200px;
+    min-width: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    
+}

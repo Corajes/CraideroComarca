@@ -58,8 +58,14 @@ button:hover{
 }
 .container{
     @include t-cont-img($altura,$anchura);
-    background-color:rgb(218, 160, 99);
-    box-shadow: 5px 8px 12px black;
-    border-radius: 20px;
-    border-style: $borde-puntitos;
+    @include cuadrado ($color-fondo-header);
+}
+.imagen_bosque{
+    height: 250px;
+    width: 100%;
+}
+html {
+    @media screen {
+        
+    }
 }

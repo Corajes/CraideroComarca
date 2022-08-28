@@ -1,19 +1,20 @@
 
-@media (min-width: 500px){
+@media (min-width: 300px){
 
     .body{
-        width: auto;
+        width: 100%;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: 15vh 1fr 1fr 20vh;
         background-color: $color-fondo;
+        ;
     
         grid-template-areas: 
         "header header header"
         "index index index"
         "index index index"
         "footer footer footer";
-    }}
+    }
     .imagen2 {
         margin: auto;
         width: 80%;
@@ -53,15 +54,10 @@
     }
     
     .div-promociones{
-        justify-content: space-around;
+        justify-content:flex-start;
+        overflow-x:scroll;
     }
-    
-    .div-promociones{
-    
-        overflow-x:hidden;
-        
-        }
-    
+       
     .productos{
         text-align: center;
     }
@@ -86,3 +82,4 @@
         padding: 3em 3em;
         border-radius: 20px;
     }
+}
